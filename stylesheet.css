@@ -1,0 +1,195 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	  background-color:	rgb(50,50,50);
+}
+.stitle{
+	margin-top:5%;margin-bottom:5%;
+}
+html, body {
+  margin:0; padding:0; height:100%; width:100%;
+}
+h1{
+
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size:70px;
+  margin:0px;
+}
+
+li {
+  display: inline-block;
+  padding:16px 0px;
+}
+
+li a {
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:visited {
+	color: white;
+}
+
+li a:hover {
+	background-color: #E66300;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E63100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.center {
+text-align: center;
+  border: 3px solid white;
+  padding: 10px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left{
+
+ padding-left: 10%;
+    float:left;
+    width:20%;
+    clear:both;
+    display:block
+}
+.column3 {
+	padding-bottom: auto;
+  float: left;
+  width: 33%;
+  /*
+	height: 25%;
+	width: 100%;
+  */
+}
+.column4 {
+	padding-bottom: auto;
+  float: left;
+  width: 25%;
+  /*
+	height: 25%;
+	width: 100%;
+  */
+}
+
+/* Clear floats after the columns */
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.centernotop{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+  text-align: center;
+	 overflow-wrap: break-word;
+}
+
+#purpose{
+background-image:url('pexels-pixabay-68138.jpg');
+overflow:hidden;
+   background-position: center;
+	  background-size: cover;
+		 background-repeat: no-repeat;
+}
+hr{
+border: 3px solid gray;
+}
+h5{
+
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size:30px;
+    margin:0px;
+}
+h4{
+
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size:80px;
+    margin:0px;
+}
+
+.ba{
+  margin-right: 1%;
+}
+
+p{
+	font-size:20px;
+  background-color:rgba(0,0,0,0.5);
+  font-family: 'Cairo', sans-serif;
+  color:rgb(220,221,222);
+}
+.invert{
+  -webkit-filter:invert(100%);
+  filter:invert(100%);
+
+}
+.text{
+	font-size:20px;
+  font-family: 'Cairo', sans-serif;
+  color:rgb(220,221,222);
+
+}
+.ft{
+	font-size:20px;
+margin-right: 10%;
+margin-left:10%;
+	 overflow-wrap: break-word;
+  word-wrap: break-word;
+  display: block;
+  border: 3px solid gray;
+
+}
+#flmenubar{
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  background-color: rgb(32,34,37);
+  margin: 0px;
+
+  font-size: 20px;
+  float: top;
+  position: fixed;
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  }
+
+a, a:active, a:visited { color: rgb(142,146,151); }
+ a:hover{
+   color:white;
+ }
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#jermaineIMG {
+
+}
+
+#jermaineDescription {
+	background-color: red;
+	width: 750px;
+	height: 200px;
+}
